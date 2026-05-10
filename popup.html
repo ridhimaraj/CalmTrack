@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyPulse</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>CalmTrack</h1>
+
+        <button id="themeToggle">Dark Mode</button>
+
+        <label>Stress Level (1-10)</label>
+        <input type="number" id="stress" min="1" max="10">
+
+        <label>Study Hours</label>
+        <input type="number" id="hours">
+
+        <label>Mood</label>
+        <input type="text" id="mood" placeholder="Happy, tired, stressed...">
+
+        <button id="saveBtn">Save Entry</button>
+
+        <p id="message"></p>
+
+        <h2>Analytics</h2>
+
+<div class="analytics-card">
+    <p id="avgStress">Average Stress: 0</p>
+    <p id="totalHours">Total Study Hours: 0</p>
+    <p id="totalEntries">Total Entries: 0</p>
+</div>
+<h2>Today's Tasks</h2>
+
+<div class="streak-card">
+    <h2 id="streakCount"> 0 Day Streak</h2>
+</div>
+
+<input type="text" id="taskInput" placeholder="Add a task...">
+
+<button id="addTaskBtn">Add Task</button>
+
+<div id="taskList"></div>
+
+        <h2>Recent Entries</h2>
+
+<div id="entriesList"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

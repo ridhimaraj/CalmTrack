@@ -1,0 +1,146 @@
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f2ff;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #6a5acd;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6a5acd;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5848c2;
+}
+
+#message {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #6c63ff;
+    text-align: center;
+}
+
+.entry-card {
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.entry-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.analytics-card {
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.analytics-card p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.task-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+
+.task-card p {
+    margin: 0;
+}
+
+.task-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.streak-card {
+    background: linear-gradient(135deg, #6c63ff, #8b7dff);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dark-mode {
+    background: #1f1f2e;
+    color: white;
+}
+
+.dark-mode input {
+    background: #2c2c3d;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode .entry-card,
+.dark-mode .task-card,
+.dark-mode .analytics-card {
+    background: #2c2c3d;
+    color: white;
+    border: 1px solid #444;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode label,
+.dark-mode p {
+    color: white;
+}
+
+.dark-mode button {
+    background-color: #8b7dff;
+}
+
+.dark-mode .completed-task {
+    color: #aaa;
+}

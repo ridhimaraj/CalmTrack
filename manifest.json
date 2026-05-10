@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "CalmTrack",
+  "version": "1.0",
+  "description": "A student mood and productivity tracker. Log your stress, write a daily note, and plan your tasks.",
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "storage"
+  ]
+}
